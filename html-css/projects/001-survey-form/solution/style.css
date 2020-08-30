@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Bowlby One SC";
+    src: url(./fonts/bowlbyonesc-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: "Sorts Mill Goudy";
+    src: url(./fonts/SortsMillGoudy-Regular.ttf);
+}
+
+body {
+    background-image: url(./images/netflix-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+#title {
+    font-weight: 900;
+    font-family: "Bowlby One SC", cursive;
+    display: block;
+    letter-spacing: 3px;
+    margin: 0em;
+    padding-top: 25px ;
+    font-size: 3em;
+}
+
+#description {
+    font-size: 1.5em;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    font-family: "Sorts Mill Goudy", sans-serif;
+}
+
+#FLIX {color: red;}
+#letterN, #letterF  {font-size: 1.1em;}
+
+#survey-form {
+    display: inline-block;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 25px 40px;
+}
+
+#name, #age, #email {
+    width: 32em;
+    height: 50px;
+}
+
+#content {
+    width: 100%;
+    height: 3em;
+}
+
+label {
+    line-height: 40px;
+}
+
+#submit {
+    background-color: red;
+    color: white;
+    padding: 0.6em 2.4em;
+    border-radius: 3em;
+    display: block;
+    margin: auto;
+    font-size: 1.3em;
+}
