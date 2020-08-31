@@ -1,0 +1,34 @@
+/* most common font size metric units are 'rem', 'em' and 'vw'. */
+
+#fonts1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#fonts2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 5vw ;
+    font-variant: small-caps;
+    /* font-variant - small caps makes first letter of sentences bigger. */
+}
+
+#fonts3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 150%;
+    font-weight: 900;
+}
+
+#fonts4 {
+    font-family: Lobster, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+#fonts5 {
+    font-family: 'Dancing Script', cursive;
+    font-style: oblique;
+    font-weight: 100;
+}
