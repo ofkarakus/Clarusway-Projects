@@ -1,0 +1,42 @@
+#texts1 {
+    color: blue;
+    text-align: justify;
+    text-decoration: overline underline;
+    line-height: 3rem;
+}
+
+#texts2 {
+    color:red;
+    text-align: justify;
+    text-decoration: wavy line-through yellow;
+
+}
+
+#texts3 {
+    text-align: justify;
+    text-decoration: line-through;
+    text-decoration-color: skyblue;
+}
+
+#texts4 {
+    text-align: justify;
+    text-transform: capitalize;
+    letter-spacing: 0.3rem;
+}
+
+#texts5 {
+    text-align: justify;
+    text-transform: lowercase;
+    text-indent: 2em;
+    text-align: right;
+}
+
+#texts6 {
+    direction: rtl;
+}
+
+#texts7 {
+    word-spacing: 1rem;
+    letter-spacing: 0.5rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem blue
+}
