@@ -1,0 +1,52 @@
+#p1 {
+    border: 5px solid red;
+    
+    /* margin-top: 50px;
+    margin-right: 70px;
+    margin-bottom: 100px;
+    margin-left: 50px; */
+
+    /* margin: 50px 70px 100px 50px; */
+
+    /* margin: 50px 70px 30px; */
+
+    /* margin: 50px 70px; */
+
+    /* margin: 100px; */
+
+    margin: auto;
+    width: 15%;
+}
+
+body {
+    background-color: #d6cdcd;
+}
+
+.demo-box {
+    background-color: white;
+    width: 80%;
+    margin: 5rem auto;
+
+    /* border: 0.3rem black solid; */
+    padding-top: 1px ;
+}
+
+#one {
+    background-color: rgb(255, 0, 0);
+    height: 3rem;
+    margin-bottom: 2rem;
+
+    /* normally there should have been 6rem whiteboard from .demo-box top border to #one top border but it hasn't happened like that. Because top borders of .demo-box and #one are at the same point. we can change it giving border or padding to .demo-box.*/
+    margin-top: 6rem;
+}
+
+#two {
+    background-color: #00ff00;
+    height: 3rem;
+    margin-top: 4rem;
+}
+
+#three {
+    background-color: #0000ff;
+    height: 3rem;
+}
