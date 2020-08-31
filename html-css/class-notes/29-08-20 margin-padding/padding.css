@@ -1,0 +1,23 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+#p1, #p2 {
+    border: 0.5em solid #ffff00;
+    background-color: skyblue;
+    padding: 1rem 2rem 3rem 4rem;
+    padding: 1rem 2rem 3rem;
+    padding: 1rem 2rem;
+    padding: 1rem;
+}
+
+div {
+    border: dotted red 0.4em;
+    padding: 2em;
+    background-color: rgb(75, 172, 99);
+}
+
+#p2 {
+    padding: inherit;
+}
