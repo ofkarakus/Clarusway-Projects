@@ -1,0 +1,25 @@
+/* this document is aimed to show the difference between 'content-box' (default) and 'border-box' values of box-sizing */
+
+body {
+    background-color: #d6cdcd;
+}
+
+.demo-box {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: 5rem auto;
+}
+
+#three {
+    background-color: #0000ff;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    color: white;
+    
+    padding-top:180px;
+    padding-left: 250px;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+}
