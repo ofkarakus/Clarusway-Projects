@@ -1,0 +1,42 @@
+/* !!! width, height, margin-top, margin-bottom properties are not available for inline elements !!! */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#div-1 {
+    background-color: greenyellow;
+    display: inline-block;
+}
+
+#span-1 {
+    background-color: fuchsia;
+    height: 100px;
+    width: 100px;
+
+    display: inline-block;
+    /* now h/w will be implemented */
+
+    height: 100px;
+    width: 100px;
+
+    margin: 10px;
+}
+
+#div-2 {
+    background-color: goldenrod;
+}
+
+#span-2 {
+    background-color: dodgerblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    display: none;
+}
+#span-2 {
+    visibility: hidden;
+}

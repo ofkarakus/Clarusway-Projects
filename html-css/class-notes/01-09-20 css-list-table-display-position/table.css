@@ -1,0 +1,42 @@
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+table {
+    width: 60%;
+}
+
+th {
+    text-align: left;
+    vertical-align: top;
+    height: 30px;
+    padding: 20px;
+    background-color: brown;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+td {
+    text-align: center;
+    padding: 5%;
+    /* background-color: coral; */
+}
+
+td:hover {
+    background-color: greenyellow;
+}
+
+th:hover {
+    color: yellow;
+}
+
+tr:nth-child(even) {
+    background-color: cadetblue;
+}
+
+tr:nth-child(odd) {
+    background-color: darkgoldenrod;
+}
