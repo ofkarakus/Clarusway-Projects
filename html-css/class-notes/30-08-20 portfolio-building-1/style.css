@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./images/netflix-background.jpg);
+    color: white;
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 3rem 10rem;
+}
+
+#title {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Bowlby One SC', cursive;
+    /* margin-collapsing ! that's why we should use padding instead of margin */
+    padding-top: 1rem;
+    letter-spacing: 0.4rem;
+}
+
+span {
+    color: #ff0000;
+}
+
+#description {
+    text-align: center;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#survey-form {
+    width: 45rem;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding-top: 1rem;
+}
+
+#name, #age, #email, #content {
+    margin-top: 0.4rem;
+    padding: 0.8rem;
+    height: 3rem;
+    width: 35rem;
+}
+
+#content {
+    box-sizing: content-box;
+    resize: none;
+}
+
+.box {
+    margin-top: 1.8rem;
+    margin-left: 3rem;
+}
+
+#survey-form .box-textarea {
+    margin-top: 1rem;
+}
+
+#submit {
+    background-color: red;
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 12rem;
+    border-radius: 4rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 2rem auto;
+}
+
+#submit:hover {
+    background-color: white;
+    color: red;
+}
