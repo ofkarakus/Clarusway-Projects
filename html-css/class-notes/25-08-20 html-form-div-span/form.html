@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="result.html" name="myfirstform" method="GET" target="_blank">
+            <label>Username: <input type="text" name="usrnm" maxlength="15"></label><br><br>
+            <label for="password">Password: </label>
+            <input type="password" name="psswrd" id="password"><br><br>
+            
+            <div><label>Email: <input type="email" name="email" id="email" placeholder="example@example.com"></label></div><br>
+            
+            <div>
+                <label>Gender</label><br>
+                <label>Male <input type="radio" name="gender" id="gender" value="Male"></label><br>
+                <label>Female <input type="radio" name="gender" id="gender" value="Female" checked></label>
+            </div>
+
+            <div>
+                <label>Vehicles:</label><br>
+                <label><input type="checkbox" name="vehicle-1" id="vehicle-1" value="Bike">Bike</label><br>
+                <label><input type="checkbox" name="vehicle-2" id="vehicle-2" value="Car">Car</label><br>
+                <label><input type="checkbox" name="vehicle-3" id="vehicle-3" value="Yacht">Yacht</label><br>
+            </div>
+
+            <div>
+                <label>Age: <input type="number" name="age" id="age" min="18" max="100"></label>
+            </div>
+
+            <div><label>search: <input type="search" name="search" id="search"></label></div>
+
+            <div><label><input type="reset" value="reset"></label></div>
+
+            <div><label>Your Favorite Color: <input type="color" name="favcolor" id="color"></label></div>
+
+            <div><label>Birthday: <input type="date" name="birthday" id="birthday" min="1980-01-02" max="2021-01-01"></label></div>
+
+            <div><label>Select a file: <input type="file" name="file" id="file"></label></div>
+
+            <div><label>Tel Num: <input type="tel" name="tel-num" id="tel-num" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-5555"></label></div>
+
+            <input type="submit" value="Send Data">
+
+        </form>
+    </body>
+</html>
