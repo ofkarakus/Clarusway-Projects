@@ -6,7 +6,6 @@
 
 #box-1 {
     background-color: green;
-    position: absolute;
     top: 150px;
     left: 100px;
     z-index: 1;
@@ -24,7 +23,7 @@
     height: 100px;
     background-color: pink;
     position: absolute;
-    top: 0px;
+    top: 20px;
 }
 
 #box-3 {
@@ -39,8 +38,8 @@
 #box-4 {
     background-color: salmon;
     position: sticky;
-    top: 15px;
-    left: 30px;
+    top: 150px;
+    left: 400px;
     z-index: 2;
 }
 
