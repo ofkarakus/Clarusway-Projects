@@ -1,0 +1,38 @@
+/* color name */
+#box1 {
+    color: blue;
+    border-style: dashed;
+    border-color: salmon;
+    border-width: 0.15rem;
+}
+
+/* rgb value */
+#box2 {
+    color: rgb(0, 0, 255);
+    border: 0.2rem dotted green;
+}
+
+/* hex value */
+#box3 {
+    color: #0000ff;
+    border-top: 0.4em solid orange;
+    border-right: 0.4em groove cyan;
+    border-bottom: 0.4rem outset blue;
+    border-left: 0.4rem inset red;
+    border-radius: 1em;
+}
+
+/* hsl value */
+#box4 {
+    color: hsl(240, 100%, 50%);
+}
+
+/* rgba value */
+#box5 {
+    color: rgba(0, 0, 255, 1);
+}
+
+/* hsla value */
+#box6 {
+    color: hsla(240, 100%, 50%, 1)
+}
