@@ -1,0 +1,50 @@
+.box {
+    background-color: gray;
+    /* overflow: auto; */
+}
+
+.box * {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+}
+
+.box-1 {
+    background-color: red;
+    float: left;
+
+
+}
+
+.box-2 {
+    background-color: blue;
+    float: left;
+    clear: left;
+}
+
+.box-3 {
+    background-color: green;
+    float: left;
+    clear: left;
+}
+
+
+/* when float is used, to prevent disappearing of parent block element */
+
+/* 1- this method is not recommended */
+/* another div added */
+/* .clear {
+    clear: both;
+} */
+
+/* 2- second method */
+/* .box {
+    overflow: auto;
+} */
+
+/* 3- most recommended one */
+.box::after {
+    content: '';
+    display: block;
+    clear: both;
+}

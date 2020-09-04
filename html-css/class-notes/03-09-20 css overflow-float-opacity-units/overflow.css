@@ -1,0 +1,35 @@
+.box * {
+    border: 0.1rem solid black;
+    height: 3rem;
+    margin-bottom: 5rem;
+    width: 15rem;
+}
+
+.box-1 {
+    overflow: visible;
+}
+
+.box-2 {
+    overflow: scroll;
+}
+
+.box-3 {
+    overflow: auto;
+}
+
+.box-4 {
+    overflow: hidden;
+}
+
+.box-5 {
+    overflow-x: scroll;
+}
+
+.box-5 p {
+    width: 1000px;
+    border: 0;
+}
+
+.box-6 {
+    overflow-y: scroll;
+}

@@ -1,0 +1,20 @@
+p {
+    border: 1px solid black;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.img-1 {
+    float: left;
+    margin-right: 1rem;
+}
+
+.img-2 {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.p-3 {
+    clear: left;
+}
