@@ -1,0 +1,41 @@
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: mediumaquamarine;
+    outline: 2px solid greenyellow;
+    transition: all ease-in-out 300ms;
+    cursor: pointer;
+}
+
+a {
+    margin: 5rem;
+}
+
+p {
+    display: none;
+    background-color: greenyellow;
+    padding: 2rem;
+}
+
+div:hover + p {
+    display: block;
+    background-color: lightseagreen;
+}
+
+div:hover p {
+    display: block;
+}
+
+p:first-child {
+    color: red;
+}
+
+p:last-child {
+    color: lightseagreen;
+}
