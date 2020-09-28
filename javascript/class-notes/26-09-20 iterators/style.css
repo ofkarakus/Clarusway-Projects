@@ -1,0 +1,19 @@
+.article {
+    border: 1px solid gray ;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.readingCount {
+    font-style: italic;
+}
+
+.check {
+    text-align: center;
+    margin: 2rem;
+}
